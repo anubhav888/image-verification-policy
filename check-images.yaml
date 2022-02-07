@@ -13,6 +13,8 @@ spec:
         resources:
           kinds:
             - Pod
+          namespaces:
+            - "image-verification"
       verifyImages:
       - image: "*"
         key: |-
